@@ -1,0 +1,160 @@
+[20-Nov-2024 03:24:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\www\new1.php:7
+Stack trace:
+#0 C:\www\new1.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'demo')
+#1 {main}
+  thrown in C:\www\new1.php on line 7
+[20-Nov-2024 03:25:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.friends' doesn't exist in C:\www\new1.php:36
+Stack trace:
+#0 C:\www\new1.php(36): mysqli->query('insert into fri...')
+#1 {main}
+  thrown in C:\www\new1.php on line 36
+[20-Nov-2024 03:25:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.friends' doesn't exist in C:\www\new1.php:36
+Stack trace:
+#0 C:\www\new1.php(36): mysqli->query('insert into fri...')
+#1 {main}
+  thrown in C:\www\new1.php on line 36
+[20-Nov-2024 03:51:26 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for your_server_name failed: No such host is known.  in C:\www\database.php on line 7
+[20-Nov-2024 03:51:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for your_server_name failed: No such host is known.  in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('your_server_nam...', 'your_username', Object(SensitiveParameterValue), 'your_database_n...')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:52:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'gladiator' in C:\www\database.php:7
+Stack trace:
+#0 C:\www\database.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gladiator')
+#1 C:\www\display.php(2): include('C:\\www\\database...')
+#2 {main}
+  thrown in C:\www\database.php on line 7
+[20-Nov-2024 03:53:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.files' doesn't exist in C:\www\display.php:5
+Stack trace:
+#0 C:\www\display.php(5): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in C:\www\display.php on line 5
+[20-Nov-2024 03:53:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.files' doesn't exist in C:\www\display.php:5
+Stack trace:
+#0 C:\www\display.php(5): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in C:\www\display.php on line 5
+[20-Nov-2024 03:53:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.files' doesn't exist in C:\www\display.php:5
+Stack trace:
+#0 C:\www\display.php(5): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in C:\www\display.php on line 5
+[20-Nov-2024 03:53:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.files' doesn't exist in C:\www\display.php:5
+Stack trace:
+#0 C:\www\display.php(5): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in C:\www\display.php on line 5
+[20-Nov-2024 03:54:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.files' doesn't exist in C:\www\display.php:5
+Stack trace:
+#0 C:\www\display.php(5): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in C:\www\display.php on line 5
+[20-Nov-2024 03:54:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'demo.files' doesn't exist in C:\www\display.php:5
+Stack trace:
+#0 C:\www\display.php(5): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in C:\www\display.php on line 5
+[20-Nov-2024 03:55:27 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:27 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:29 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:29 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:29 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:29 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:29 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:29 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:30 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:30 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:30 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 03:55:30 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:00:04 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:00:04 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:07 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:07 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:07 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:07 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:07 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:07 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:08 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:08 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:08 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:08 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:08 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:08 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:16 UTC] PHP Warning:  Undefined array key "id" in C:\www\display.php on line 9
+[20-Nov-2024 04:02:16 UTC] PHP Warning:  Undefined array key "filename" in C:\www\display.php on line 9
+[20-Nov-2024 04:04:26 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 6
+[20-Nov-2024 04:04:26 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 6
+[20-Nov-2024 04:04:26 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\www\upload.php on line 6
+[20-Nov-2024 04:04:27 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 18
+[20-Nov-2024 04:04:27 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 18
+[20-Nov-2024 04:12:29 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 6
+[20-Nov-2024 04:12:29 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 6
+[20-Nov-2024 04:12:29 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\www\upload.php on line 6
+[20-Nov-2024 04:12:29 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 18
+[20-Nov-2024 04:12:29 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 18
+[20-Nov-2024 04:12:42 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 6
+[20-Nov-2024 04:12:42 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 6
+[20-Nov-2024 04:12:42 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\www\upload.php on line 6
+[20-Nov-2024 04:12:42 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 18
+[20-Nov-2024 04:12:42 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 18
+[20-Nov-2024 04:31:56 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 10
+[20-Nov-2024 04:31:56 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 10
+[20-Nov-2024 04:31:56 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in C:\www\upload.php on line 10
+[20-Nov-2024 04:31:56 UTC] PHP Warning:  Undefined array key "fileToUpload" in C:\www\upload.php on line 15
+[20-Nov-2024 04:31:56 UTC] PHP Warning:  Trying to access array offset on null in C:\www\upload.php on line 15
